@@ -1,0 +1,7 @@
+"Tel. fixe";01/1999;25;
+"Tel. portable";01/1999;15;
+"PC bureau";02/1999;8;
+"PC portable";02/1999;12;
+"Micro onde";03/1999;3;
+"Mixeur";02/2000;4;
+"Grille-pain";03/2000;3;
