@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Math.round(row4.Taux * row2.contrat_montant)">
+  <variables name="row2.contrat_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.client_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.contrat_montant" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.contrat_date" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.service_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.contrat_nbjour" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.contrat_debut" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.contrat_fin" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.devise" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.agence_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.Devise" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.Annee" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.Mois" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.Taux" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="TalendDate.getPartOfDate(&quot;DAY_OF_MONTH&quot;, row10.contrat_date) " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;MONTH&quot;, row10.contrat_date) + 1 " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;YEAR&quot;, row10.contrat_date) " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;DAY_OF_MONTH&quot;, row2.contrat_date) " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;MONTH&quot;, row2.contrat_date) + 1 " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;YEAR&quot;, row2.contrat_date) " value="0" talendType="id_Integer"/>
+</expression:EMFExpression>

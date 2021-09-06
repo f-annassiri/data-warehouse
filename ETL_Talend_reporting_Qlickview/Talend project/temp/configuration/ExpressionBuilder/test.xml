@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendDate.getPartOfDate(&quot;DAY&quot;, row10.contrat_date)">
+  <variables name="row10.contrat_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row10.client_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row10.contrat_montant" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row10.contrat_date" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row10.service_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row10.contrat_nbjour" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row10.contrat_debut" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row10.contrat_fin" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row10.devise" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row10.agence_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, row10.contrat_date)" value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;MONTH&quot;, row10.contrat_date) + 1 " value="0" talendType="id_Integer"/>
+  <variables name="TalendDate.getPartOfDate(&quot;YEAR&quot;, row10.contrat_date) " value="0" talendType="id_Integer"/>
+</expression:EMFExpression>

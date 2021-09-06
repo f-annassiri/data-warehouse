@@ -1,0 +1,16 @@
+agence_id;agence_nom;agence_ville;pays_id;Zone_id
+27601;UNICA GmBH;Berlin;276;EUR
+25001;UNICA France Nord;Paris;250;EUR
+25002;UNICA France Ouest;Nantes;250;EUR
+25003;UNICA Mediterannee;Marseille;250;EUR
+38001;UNICA Italia;Milan;380;EUR
+72401;UNICA Spain;Madrid;724;EUR
+84001;UNICA California;San-Jose;840;AME
+84002;UNICA East coast;Cheyenne;840;AME
+84003;UNICA Florida;Orlando;840;AME
+84004;UNICA AZ;Phoenix;840;AME
+84005;UNICA AK;Anchorage;840;AME
+84006;UNICA TX;Dallas;840;AME
+84007;UNICA WS;Seatle;840;AME
+84008;UNICA Ohio;Detroit;840;AME
+84009;UNICA NY;New York;840;AME

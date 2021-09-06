@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zZiwoC5BEeuZEqsTwUcQHQ" name="contrat" dataPackage="_zZiwoS5BEeuZEqsTwUcQHQ" Server="Localhost 127.0.0.1" FilePath="C:/Files/Talend-Workstation/TP1/Data/contrat.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zZiwoS5BEeuZEqsTwUcQHQ" name="default" dataManager="_zZiwoC5BEeuZEqsTwUcQHQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zZiwoi5BEeuZEqsTwUcQHQ" id="_dQkuYC5BEeuZEqsTwUcQHQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwoy5BEeuZEqsTwUcQHQ" label="contrat_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwpC5BEeuZEqsTwUcQHQ" label="client_id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwpS5BEeuZEqsTwUcQHQ" label="contrat_montant" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwpi5BEeuZEqsTwUcQHQ" label="contrat_date" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwpy5BEeuZEqsTwUcQHQ" label="service_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwqC5BEeuZEqsTwUcQHQ" label="contrat_nbjour" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwqS5BEeuZEqsTwUcQHQ" label="contrat_debut" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwqi5BEeuZEqsTwUcQHQ" label="contrat_fin" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwqy5BEeuZEqsTwUcQHQ" label="devise" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zZiwrC5BEeuZEqsTwUcQHQ" label="agence_id" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
